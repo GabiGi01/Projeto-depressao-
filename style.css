@@ -1,0 +1,10 @@
+#video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    min-height: 50vh;
+    padding: 20px;
+}
