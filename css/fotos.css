@@ -4,9 +4,13 @@
 #container-fotos {
     display: flex;
     max-width: 1200px;
-    max-height: 1000px;
+    max-height: 2000px;
     width: 80vw;
     margin: auto;
     flex-direction: column;
     flex-wrap: wrap; 
+}
+#Serie img, #Depressao-entre-os-jovens img{
+    margin: auto;
+    display: block;
 }

@@ -1,0 +1,79 @@
+.pagina-atores  {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    width: 100vw;
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.pagina-atores ul {
+    list-style: none;;
+}
+
+.pagina-atores div {
+    height: 500px;
+    max-width: 800px;
+    
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.pagina-atores a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+    align-self: center;
+    background-color: white;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.pagina-atores a:hover {
+    background-color:rgb(251, 255, 0);
+}
+
+#ator1-main {
+    background-image: url("../imagens/32.jpg");
+    background-position: 50% 50%;
+}
+
+#ator2-main {
+    background-image: url("http://images5.fanpop.com/image/photos/31200000/the-vampire-diaries-beautiful-elena-the-vampire-diaries-31277227-510-769.jpg");
+    background-position: 50% 50%;
+    
+}    
+
+
+#ator3-main {
+    background-image: url("https://ewedit.files.wordpress.com/2015/01/vampire-diaries_l-1-1.jpg");
+    background-position: 50% 50%;
+}
+
+@media screen and (min-width: 900px) {
+    #ator1-main {
+        background-size: contain;
+        background-position-x: 45%;
+        background-color: black;
+    }
+    #ator2-main{
+        background-size: contain;
+        background-position-x: 45%;
+        background-color: white;
+    }
+    #ator3-main{
+        background-size: contain;
+        background-position-x: 45%;
+        background-color: black;
+    }
+}
