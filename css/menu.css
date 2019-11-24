@@ -39,13 +39,12 @@ nav {
     right: 10px;
 }
 
-#menu {
+#menu{
     list-style: none;
-    padding-top:40px;
     background-color: black;
     width: 100%;
-    min-height: 100vh;
-    transition: 0.2s linear;
+    transition: 0.4s linear;
+    overflow: hidden;
 }
 
 nav li {
@@ -87,12 +86,6 @@ nav li a{
  transform-origin: 0 0;
 
 }
-
-.display-none{
-    display:none;
-}
-
-
 
 @media screen and (max-height: 650px) {
   nav li {
