@@ -30,6 +30,10 @@ p, li {
     text-align: justify;
     margin: 10px 0;
     font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-indent: 40px;
 }
 body{
     background-color: rgb(254, 255, 224);
