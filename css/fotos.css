@@ -1,16 +1,36 @@
 #container-fotos img {
     max-width: 300px;
+    margin: 10px;
 }
 #container-fotos {
     display: flex;
-    max-width: 1200px;
-    max-height: 2000px;
-    width: 80vw;
+    max-width: 1300px;
     margin: auto;
     flex-direction: column;
     flex-wrap: wrap; 
 }
-#Serie img, #Depressao-entre-os-jovens img{
+@media screen and (min-width: 640px){
+  #container-fotos {
+    max-height: 3200px;
+  }
+}
+@media screen and (min-width: 950px){
+  #container-fotos {
+    max-height: 2300px;
+  }
+}
+@media screen and (min-width: 1260px){
+  #container-fotos {
+    max-height: 1700px;
+  }
+}
+.item{
+  max-width: 100%;
     margin: auto;
     display: block;
+}
+
+#Fotos {
+  max-width: 100%;
+  background-color: rgb(255, 238, 0);
 }
