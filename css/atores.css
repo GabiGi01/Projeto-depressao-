@@ -1,3 +1,9 @@
+#Personagens {
+    min-height: 4500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 #Personagens a{
     background-size: cover;
     display: block;
@@ -5,7 +11,7 @@
     width: 100%;
     height: 300px;
     text-decoration: none;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 #Personagens a p {
@@ -29,5 +35,15 @@
   #ator1{
     background-position-x: 0px;
   }
+}
+#ator2{
+    background-image: url("../imagens/33.jpg");
+    background-size: cover;
+
+}
+@media screen and (min-width: 500px){
+    #ator1{
+        background-position-x: 0px;
+    }
 }
 
