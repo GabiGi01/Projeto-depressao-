@@ -13,7 +13,7 @@
 }
 
 .pagina-atores ul {
-    list-style: none;;
+    list-style: none;
 }
 
 .pagina-atores div {
@@ -56,8 +56,26 @@
 
 
 #ator3-main {
-    background-image: url("../imagens/33.jpg");
+    background-image: url("../imagens/34.jpg");
     background-position: 50% 50%;
+}
+#ator4-main {
+    background-image: url("../imagens/35.jpg");
+   background-size: cover;
+}
+
+#ator3-main div {
+
+    color:white;
+    background-color: rgb(0,0,0,0.7);
+    justify-content: center;
+    text-align:left;
+
+}
+@media screen and (max-width: 600px) {
+    ator3-main div {
+        font-size: 14px;
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -76,4 +94,38 @@
         background-position-x: 45%;
         background-color: black;
     }
+}
+#ator4-main{
+    background-size: contain;
+    background-position-x: 0px;
+    background-color: white;
+}
+#ator5-main{
+    background-image: url("../imagens/36.jpg");
+    background-size: 70%;
+    background-position-x: 0px;
+    background-color: white;
+
+}
+#ator6-main{
+    background-image: url("../imagens/37.jpg");
+    background-size: 70%;
+    background-position-x: 0px;
+    background-color: white;
+}
+#ator7-main{
+    background-image: url("../imagens/38.jpg");
+    background-size: 70%;
+    background-position-x: 0px;
+
+}
+#ator8-main{
+    background-image: url("../imagens/39.jpg");
+    background-size: 70%;
+    background-position-x: 0px ;
+}
+#ator9-main{
+    background-image: url("../imagens/40.jpg");
+    background-size: 70%;
+    background-position-x: 0px;
 }

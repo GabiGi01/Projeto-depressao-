@@ -46,4 +46,68 @@
         background-position-x: 0px;
     }
 }
-
+#ator3{
+    background-image: url("../imagens/34.jpg");
+    background-size: cover;
+}
+@media screen and (min-width: 500px){
+       #ator3{
+           background-position-x: 0px;
+       }
+    }
+#ator4{
+    background-image: url("../imagens/35.jpg");
+    background-size: cover;
+}
+@media screen and (min-width: 500px){
+      #ator4{
+          background-position-x: 0px;
+      }
+}
+#ator5{
+    background-image: url("../imagens/36.jpg");
+    background-size: cover ;
+}
+@media screen and (min-width: 500px){
+    #ator5{
+        background-position-x: 0px;
+    }
+}
+#ator6{
+    background-image: url("../imagens/37.jpg");
+    background-size:cover ;
+}
+@media screen and (min-width: 500px){
+    #ator6{
+        background-position-x: 0px;
+    }
+}
+#ator7{
+    background-image: url("../imagens/38.jpg");
+    background-size:cover;
+}
+@media screen and (min-width: 500px){
+    #ator7{
+        background-position-x: 0px;
+    }
+}
+#ator8{
+    background-image: url("../imagens/39.jpg");
+    background-size: cover;
+}
+@media screen and (min-width: 500px){
+    #ator8{
+        background-position: 0px;
+    }
+}
+#ator9{
+    background-image: url("../imagens/40.jpg");
+    background-size: cover;
+}
+@media screen and (min-width: 500px){
+    #ator9{
+        background-position: 0px ;
+        
+    }
+    }
+}
